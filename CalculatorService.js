@@ -187,7 +187,7 @@ http.createServer(function (req, resp) {
                 sendMeasuresToFastAPI(body, evalRes);
 
                 resp.write("result = " + res + "\r\n");
-                resp.write("Measured operations timings:\r\n");
+                resp.write("Measured Operations timings:\r\n");
                 timings.forEach((op) => {
                     resp.write(
                         `${op.name}: ${op.a} ${op.operator} ${op.b} = ${op.result} (${op.durationMs.toFixed(3)} ms)\r\n`
