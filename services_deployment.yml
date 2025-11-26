@@ -22,7 +22,7 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 80
-    nodeSelector:
+      nodeSelector:
         PoP: space_2
 
 ---
@@ -65,7 +65,7 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 80
-    nodeSelector:
+      nodeSelector:
         PoP: space_2
 
 ---
@@ -108,7 +108,7 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 80
-    nodeSelector:
+      nodeSelector:
         PoP: space_2
 
 ---
@@ -151,7 +151,7 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 80
-    nodeSelector:
+      nodeSelector:
         PoP: space_2
 ---
 apiVersion: v1
@@ -193,7 +193,7 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 80
-    nodeSelector:
+      nodeSelector:
         PoP: space_2
 
 ---
